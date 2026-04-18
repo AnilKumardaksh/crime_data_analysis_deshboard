@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CrimeWatch India: Crime Rate Analysis Dashboard
 
 A professional, real-world dashboard built for analyzing Indian crime rates with predictive insights using Machine Learning.
@@ -85,3 +86,6 @@ The data used in this project is based on the **National Crime Records Bureau (N
 - Mention that the UI is **Responsive** and works on mobile devices.
 
 Developed with ❤️ for College Project Submission.
+=======
+# crime_data_analysis_deshboard
+>>>>>>> f8398b195fd2dd7b0de58f42cf62d090521d4e5f

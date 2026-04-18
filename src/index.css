@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #020617;
+  --color-card-bg: #0f172a;
+  --color-card-border: #1e293b;
+  --color-text-main: #f8fafc;
+  --color-text-dim: #94a3b8;
+  --color-accent-blue: #3b82f6;
+  --color-accent-red: #ef4444;
+  --color-accent-green: #10b981;
+  --color-accent-glow: rgba(59, 130, 246, 0.15);
+  --color-sidebar-bg: #070a14;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text-main font-sans;
+  }
+}
+
+@layer utilities {
+  .prediction-gradient {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  }
+  .border-dotted-slate {
+    border-bottom: 1px dotted #1e293b;
+  }
+}
